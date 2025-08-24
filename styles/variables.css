@@ -1,1 +1,15 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+	--main-font: 'Inter-Varible';
+	--decorate-font: 'PressStart2P';
+	--main-font-weight: 410;
+	--heading-font-weight: 715;
+	--border: 2px solid black;
+	--main-bg-color: white;
+	--accent-color: black;
+	--hover-color: white;
+
+	/* animation color */
+	--countour-color: #000;
+	--animation-fill-color: red;
+}

@@ -9,3 +9,38 @@
 ✦ button__text — для обозначения текстового элемента внутри кнопки
 
 */
+
+@keyframes filter-color {
+	to {
+		filter: hue-rotate(360deg);
+	}
+}
+
+@keyframes filter-blur {
+	from {
+		filter: blur(0px);
+	}
+	to {
+		filter: blur(1px);
+	}
+}
+
+@keyframes heartbeat {
+	from {
+		transform: scale(1);
+	}
+
+	to {
+		transform: scale(1.25);
+	}
+}
+
+@keyframes sparks {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
