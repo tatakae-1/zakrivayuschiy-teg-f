@@ -88,13 +88,19 @@
 .watermark {
 	position: absolute;
 	z-index: 1;
-	right: 3%;
-	top: 5.5%;
+	right: 4vw;
+	top: 8.5vh;
 	opacity: 50%;
 	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 	font-size: 14px;
 	mix-blend-mode: hard-light;
 	text-transform: uppercase;
+}
+
+@media (width <= 456px) {
+	.first-watermark {
+		top: 12vh;
+	}
 }
 
 @supports (-webkit-text-stroke: 1px white) {
