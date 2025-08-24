@@ -258,7 +258,7 @@
 	border: var(--border);
 	background-color: var(--main-bg-color);
 	color: var(--accent-color);
-	transition: all 0.5s ease;
+	transition: 0.5s ease;
 	position: relative;
 	cursor: pointer;
 }
@@ -329,7 +329,7 @@ dialog {
 	padding-block: 30px;
 	max-inline-size: 341px;
 	inset: 0;
-	transition: all 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
 }
 
 dialog:not([open]) {
