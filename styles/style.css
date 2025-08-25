@@ -88,8 +88,8 @@
 .watermark {
 	position: absolute;
 	z-index: 1;
-	right: 4vw;
-	top: 8.5vh;
+	right: 30px;
+	top: 55px;
 	opacity: 50%;
 	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 	font-size: 14px;
@@ -99,7 +99,7 @@
 
 @media (width <= 456px) {
 	.first-watermark {
-		top: 12vh;
+		top: 80px;
 	}
 }
 
